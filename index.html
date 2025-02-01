@@ -54,7 +54,7 @@
 
 <body class="sora-font text-color">
     <!-- header -->
-    <header class="bg-pets-section">
+    <header class="bg-pets-section border-b-2 lg:border-b-0">
         <nav class="container mx-auto">
             <div class="navbar px-4 md:px-0 py-3 md:py-5">
                 <div class="navbar-start">
@@ -63,14 +63,14 @@
                   <a class=" text-2xl pl-1 invisible sm:visible">Browse<span class="text-pets-primary">4</span>Pets</a>
                 </div>
                 <div class="navbar-center hidden lg:flex">
-                  <ul class="menu menu-horizontal px-1">
-                    <li><a>Find a pet</a></li>
-                    <li><a>Breeds</a></li>
-                    <li><a>Contact us</a></li>
+                  <ul class="menu menu-horizontal px-1 text-xl ">
+                    <li><a class="hover:bg-transparent">Find a pet</a></li>
+                    <li><a class="hover:bg-transparent">Breeds</a></li>
+                    <li><a class="hover:bg-transparent">Contact us</a></li>
                   </ul>
                 </div>
                 <div class="navbar-end">
-                    <button class="btn btn-ghost btn-circle invisible sm:visible">
+                    <button class="btn hover:bg-transparent btn-ghost btn-circle invisible sm:visible">
                         <div class="indicator">
                           <svg
                             xmlns="http://www.w3.org/2000/svg"
@@ -86,7 +86,7 @@
                           </svg>
                         </div>
                     </button>
-                    <button class="btn btn-ghost btn-circle invisible sm:visible">
+                    <button class="btn hover:bg-transparent btn-ghost btn-circle invisible sm:visible">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
                           class="h-5 w-5"
@@ -141,7 +141,7 @@
             <div class=" w-3/4 lg:w-1/2 space-y-5 left-0 pb-24">
                 <h1 class="adlam-display-regular lg:text-6xl text-3xl">Pamper Your Pet, Because They Deserve the Bes</h1>
                 <p class="md:text-xl text-base">Discover a world of treats, toys, and essentials handpicked for your furry friends. Shop now and make tails wag with joy!</p>
-                <button class="btn hover:bg-transparent hover:border-pets-primary py-2 px-7 bg-pets-primary text-xl font-normal">Find a pet</button>
+                <button class="btn hover:bg-transparent hover:border-pets-primary py-2 px-7 bg-pets-primary text-xl font-normal animate-bounce">Find a pet</button>
             </div>
             </div>
         </section>
@@ -455,9 +455,9 @@
               <div class="space-y-5 text-center lg:text-left px-5 lg:w-7/12">
                 <h2 class="adlam-display-regular text-2xl lg:text-4xl">Get Pawsome News!</h2>
                 <p class="text-base lg:text-xl">Exclusive training tips, tricks, product deals, and more.</p>
-                <div class="flex flex-col lg:flex-row lg:items-center space-y-3 lg:space-y-0 lg:space-x-2">
+                <div class="flex flex-col lg:items-baseline space-y-4  lg:space-x-2">
                   <input class="input w-full lg:w-2/3 px-4 py-2 border rounded-md" placeholder="Enter email..." />
-                  <button class="btn hover:bg-transparent hover:border-pets-primary py-2 px-7 bg-pets-primary text-xl font-normal rounded-lg">
+                  <button class="btn hover:bg-transparent hover:border-pets-primary py-2 px-7 bg-pets-primary text-xl font-normal rounded-lg w-40">
                     Subscribe
                   </button>
                 </div>
